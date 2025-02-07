@@ -1,0 +1,45 @@
+Different Tearms of input will produce O(a+b) complexity.
+    ie. function multipleInputs(arr1,arr2){
+        arr1.forEach(function(box){
+            console.log('boxes');
+        })
+        arr2.forEach(function(box){
+            console.log('boxes');
+        })
+    }
+##### Hash Tables-
+*** Benefits of Hash Tables/Why we use *** 
+
+    Fast lookups
+
+    Fast inserts
+
+    Flexible keys
+
+    Hash table is useful for improve time complexity 
+
+    Hash table is use to optimize code
+
+    can read more about hash table about here -- https://softwaremaniacs.org/blog/2020/02/05/dicts-ordered/en/
+
+*** Downside of Hash table is ***
+
+    it is unordered - it really hard, goes to everything in order.
+
+    and it is slow key iteration.
+
+Note- 
+    --- Good collision resolution needed.
+
+    --- could be o(n) with hash collision and dynamic array resizing but unlikely.
+
+##### LinkedList--
+ *** linked list is use instead of arrays or Hash tables because of -
+
+    in static array we only have certain mine of data or memory that can be allocated. but both dynamic and static array can increase their memory once they are hit the certain limit and double up the memory in another location, it causes performance implications. and it cause of o(n).
+
+    arrays have bad performance in insert and delete for shift indexes over specially you inserted or deleted in array.
+
+    Hash table is good but it not ordered.
+
+    to resolve those problems we can go to LinkedList 
